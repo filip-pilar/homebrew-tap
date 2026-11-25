@@ -11,6 +11,14 @@ class Cleanpaste < Formula
     bin.install "cleanpaste-macos-universal" => "cleanpaste"
   end
 
+  def caveats
+    <<~EOS
+      If you installed cleanpaste with the curl script before, remove that copy first
+      so two copies do not run at once:
+        curl -fsSL https://raw.githubusercontent.com/filip-pilar/cleanpaste/main/install.sh | sh -s -- --uninstall
+    EOS
+  end
+
   service do
     run opt_bin/"cleanpaste"
     keep_alive successful_exit: false
