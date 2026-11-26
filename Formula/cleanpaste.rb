@@ -1,8 +1,8 @@
 class Cleanpaste < Formula
   desc "Strip tracking parameters from links as you copy them"
   homepage "https://github.com/filip-pilar/cleanpaste"
-  url "https://github.com/filip-pilar/cleanpaste/releases/download/v0.1.2/cleanpaste-macos-universal"
-  sha256 "0649f680dc20822a938d8eb471473c56bd46506a1ec6492490b41bf28e154b1a"
+  url "https://github.com/filip-pilar/cleanpaste/releases/download/v0.1.3/cleanpaste-macos-universal"
+  sha256 "f0419aeefb30ee1a5fac8550e44ef398072fb314b3161bec538c56f991f2ba35"
   license "MIT"
 
   depends_on :macos
